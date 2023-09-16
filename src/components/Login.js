@@ -4,10 +4,16 @@ const Login = (props) {
         <Container>
             <Nav>
                 <a href="/">
-                    <img src="/images/login.svg" alt=""/>
+                    <img src="/images/minilogo.svg" alt=""/>
                 </a>
-                <div>Join now</div>
+                <Join>Join now</Join>
+                <SignIn>Sign in</SignIn>
             </Nav>
+            <Section>
+                <Hero>
+                   <h1>Welcome to the world of giving</h1> 
+                </Hero>
+            </Section>
         </Container>
     );
 };
@@ -49,4 +55,48 @@ const Join = styled.a`
     }
 `;
 
+const SignIn = styled.a`
+    box-shadow: inset 0 0 0 1px #0a66c2
+    color: #0a66c2;
+    border-radius: 24px;
+    transition-duration: 167px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height:40px;
+    padding: 10px 24px;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    &:hover{
+        background-color
+    }
+`;
+
+const Section = styled.section`
+    display: flex;
+    align-content: start;
+    min-height: 700px;
+    padding-bottom: 138px;
+    padding-top: 40px;
+    padding 60px 0;
+    position relative;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1128px;
+    align-items: center;
+    margin: auto;
+    @media (max-width: 768px) {
+        margin: auto;
+        min-height: 0px;
+    }
+`;
+
+const Hero = styled.div`
+    width: 100%;
+    hi {
+        padding-bottom: 0;
+        width: 55%;
+        font-size: 56px;
+        color: 
+    }
+`;
 export default Login;
