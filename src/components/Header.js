@@ -20,54 +20,53 @@ const Header = (props) => {
         <Nav>
           <NavListWrap>
             <NavList className="active">
-              <a>
+              <a href="home.html">
                 <img src="/images/nav-home.svg" alt="" />
                 <span>Home</span>
               </a>
             </NavList>
 
             <NavList>
-              <a>
+              <a href="network.html">
                 <img src="/images/nav-network.svg" alt="" />
                 <span>My Network</span>
               </a>
             </NavList>
 
             <NavList>
-              <a>
+              <a href="jobs.html">
                 <img src="/images/nav-jobs.svg" alt="" />
                 <span>Jobs</span>
               </a>
             </NavList>
 
             <NavList>
-              <a>
+              <a href="messaging.html">
                 <img src="/images/nav-messaging.svg" alt="" />
                 <span>Messaging</span>
               </a>
             </NavList>
 
             <NavList>
-              <a>
+              <a href="notifications.html">
                 <img src="/images/nav-notifications.svg" alt="" />
                 <span>Notifications</span>
               </a>
             </NavList>
-
             <User>
-              <a>
+              <a href="user.html">
                 <img src="/images/user.svg" alt="" />
                 <span>Me</span>
                 <img src="/images/down-icon.svg" alt="" />
               </a>
 
               <SignOut>
-                <a>Sign Out</a>
+                <a href="signout.html">Sign Out</a>
               </SignOut>
             </User>
 
             <Work>
-              <a>
+              <a href="work.html">
                 <img src="/images/nav-work.svg" alt="" />
                 <span>
                   Work
@@ -256,3 +255,5 @@ const User = styled(NavList)`
 const Work = styled(User)`
   border-left: 1px solid rgba(0, 0, 0, 0.08);
 `;
+
+export default Header
