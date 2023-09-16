@@ -1,6 +1,8 @@
-import {BrowserRouter as Router,Switch, Route} from react-router-DOMException
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+
 import Login from "./components/Login";
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +11,9 @@ function App() {
           <Route exact path="/">
             <Login />
           </Route>
+          <Route path="/home">
+    
+          </Route>
         </Switch>
       </Router>
     </div>
@@ -16,4 +21,3 @@ function App() {
 }
 
 export default App;
-
