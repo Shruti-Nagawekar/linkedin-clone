@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
+
 const Login = (props) => {
   return (
     <Container>
       <Nav>
         <a href="/">
-          <img src="/images/login-logo.svg" alt="" />
+          <img src="/images/Logo.svg" alt="" />
         </a>
         <div>
           <Join>Join now</Join>
@@ -14,7 +15,7 @@ const Login = (props) => {
       </Nav>
       <Section>
         <Hero>
-          <h1>Welcome to your professional community</h1>
+          <h1>Welcome to the world of giving</h1>
           <img src="/images/login-hero.svg" alt="" />
         </Hero>
         <Form>
@@ -165,5 +166,4 @@ const Google = styled.button`
     color: rgba(0, 0, 0, 0.75);
   }
 `;
-
 export default Login;
