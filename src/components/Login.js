@@ -6,7 +6,7 @@ const Login = (props) => {
     <Container>
       <Nav>
         <a href="/">
-          <img src="/images/login-logo.svg" alt="" />
+          <img src="/images/Logo.svg" alt="" />
         </a>
         <div>
           <Join>Join now</Join>
@@ -15,7 +15,7 @@ const Login = (props) => {
       </Nav>
       <Section>
         <Hero>
-          <h1>Welcome to your professional community</h1>
+          <h1>Welcome to the world of giving</h1>
           <img src="/images/login-hero.svg" alt="" />
         </Hero>
         <Form>
@@ -166,51 +166,4 @@ const Google = styled.button`
     color: rgba(0, 0, 0, 0.75);
   }
 `;
-
-
-const SignIn = styled.a`
-    box-shadow: inset 0 0 0 1px #0a66c2
-    color: #0a66c2;
-    border-radius: 24px;
-    transition-duration: 167px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height:40px;
-    padding: 10px 24px;
-    text-align: center;
-    background-color: rgba(0,0,0,0);
-    &:hover{
-        background-color
-    }
-`;
-
-const Section = styled.section`
-    display: flex;
-    align-content: start;
-    min-height: 700px;
-    padding-bottom: 138px;
-    padding-top: 40px;
-    padding 60px 0;
-    position relative;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1128px;
-    align-items: center;
-    margin: auto;
-    @media (max-width: 768px) {
-        margin: auto;
-        min-height: 0px;
-    }
-`;
-
-const Hero = styled.div`
-    width: 100%;
-    hi {
-        padding-bottom: 0;
-        width: 55%;
-        font-size: 56px;
-        color: 
-    }
-`;
 export default Login;
-
